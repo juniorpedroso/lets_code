@@ -10,21 +10,25 @@ while resp != 'S' and resp != 'N':
     if resp == 'S':
         pontos += 1
 
+resp = ''
 while resp != 'S' and resp != 'N':
     resp = input('Já trabalhou com a vítima?: ').upper()
     if resp == 'S':
         pontos += 1
 
+resp = ''
 while resp != 'S' and resp != 'N':
     resp = input('Telefonou para a vítima?: ').upper()
     if resp == 'S':
         pontos += 1
 
+resp = ''
 while resp != 'S' and resp != 'N':
     resp = input('Esteve no local do crime?: ').upper()
     if resp == 'S':
         pontos += 1
 
+resp = ''
 while resp != 'S' and resp != 'N':
     resp = input('Devia para a vítima?: ').upper()
     if resp == 'S':
@@ -40,5 +44,5 @@ else:
     situacao = 'LIBERADO'
 
 print('Relatório do caso')
-print(f'Conforme o questionário onde o suspeito obteve {pontos} pontos.\n' +
-      'Ele é considerado {situacao}')
+print(f'Conforme o questionário onde o suspeito obteve {pontos} pontos.')
+print(f'Ele é considerado {situacao}')
