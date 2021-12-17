@@ -44,5 +44,5 @@ else:
     situacao = 'LIBERADO'
 
 print('Relatório do caso')
-print(f'Conforme o questionário onde o suspeito obteve {pontos} pontos.')
+print(f'Conforme questionário o investigado obteve {pontos} pontos.')
 print(f'Ele é considerado {situacao}')
